@@ -12,6 +12,6 @@ const Category = connection.define('category', {
     } 
 });
 
-Category.sync({force: true}); // true quando for criar a primeira vez e depois mudar para false
+Category.sync({force: false}); // true quando for criar a primeira vez e depois mudar para false
 
 module.exports = Category;

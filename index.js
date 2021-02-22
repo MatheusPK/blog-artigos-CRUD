@@ -3,7 +3,7 @@ const app = express(); // açucar sintatico
 const bodyParser = require('body-parser');
 const dbConnection = require('./database/dbConnection');
 const session = require('express-session');
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 
 const categoriesController = require('./categories/categoriesController');
 const articlesController = require('./articles/articlesController');

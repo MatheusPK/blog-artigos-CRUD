@@ -12,6 +12,6 @@ const User = connection.define('user', {
     }
 });
 
-User.sync({force: true}); //remover  a linha dps de criar a tabela, para n ficar tentando criar toda hora
+User.sync({force: false}); //remover  a linha dps de criar a tabela, para n ficar tentando criar toda hora
 
 module.exports = User;
